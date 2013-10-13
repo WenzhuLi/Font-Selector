@@ -13,6 +13,7 @@
 @interface SVFontCompareViewController : UITableViewController<UIFolderTableViewDelegate,UIAlertViewDelegate,SVInputViewDelegate>{
     UIButton * editButton;
 }
+
 @property (nonatomic, strong)NSMutableArray * fontsArray;
 @property (nonatomic, strong)NSMutableArray * cellsArray;
 @property (nonatomic, strong)SVFolderView * folderContent;
