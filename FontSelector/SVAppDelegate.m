@@ -15,7 +15,7 @@
 #define WB_APP_SEC @"ea21a094561dc1cf9210c914a3ce0e90"
 #define WB_URI @"http://baidu.com"
 @implementation SVAppDelegate
-
+//test commit
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSString * currentText = [[NSUserDefaults standardUserDefaults] objectForKey:kCurrentTextKey];
